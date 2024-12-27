@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form id="registerForm">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" required>
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" required>
+            
+            <label for="mobile">Mobile Number</label>
+            <input type="text" id="mobile" name="mobile" pattern="\d{10}" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <input type="submit" value="Register">
+        </form>
+        <div class="social-login">
+            <button class="google">Login by Google</button>
+            <button class="facebook">Login by Facebook</button>
+            <button class="apple">Login by Apple ID</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

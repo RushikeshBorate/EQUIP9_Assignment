@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2eff5;
+}
+.container {
+    width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(40, 37, 37, 0.1);
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 15px 0;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+}
+.social-login {
+    margin: 15px 0;
+}
+.social-login button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.google { background: #33130f; color: white; }
+.facebook { background: #0d4cd4; color: white; }
+.apple { background: #8d0a0a; color: white; }
